@@ -4,6 +4,7 @@
   "description": "team01 repository",
   "main": "app.js",
   "scripts": {
+     "start": "node app.js"
   },
   "repository": {
     "type": "git",
