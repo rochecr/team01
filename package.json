@@ -1,0 +1,19 @@
+{
+  "name": "team01",
+  "version": "1.0.0",
+  "description": "team01 repository",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rochecr/team01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rochecr/team01/issues"
+  },
+  "homepage": "https://github.com/rochecr/team01#readme"
+}
