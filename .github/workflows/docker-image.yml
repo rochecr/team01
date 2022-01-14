@@ -20,7 +20,7 @@ jobs:
         password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-team01
+      run: docker build . --file Dockerfile --tag rochecr/my-team01
     - name: Push docker image
       run: docker push rochecr/my-team01
       
