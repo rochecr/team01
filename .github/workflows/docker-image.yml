@@ -22,4 +22,5 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-team01
     - name: Push docker image
-      run: docker push https://hub.docker.com/u/rochecr/my-team01
+      run: docker push rochecr/my-team01
+      
