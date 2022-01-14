@@ -1,7 +1,7 @@
 const http = require('http');
 
 // Constants
-const port = 3000;
+const port = 8080;
 const hostname = '0.0.0.0';
 
 const server = http.createServer((req, res) => {
